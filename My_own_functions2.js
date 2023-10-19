@@ -1,14 +1,14 @@
 
-function myIsNan(a){
-    if(a == Number || a * 1 == Number) {
+function myIsNan(a) {
+    if( a != a )
+        {
+            return true
+        }
+    else {
         return false
     }
-    else{
-       return true ;
-    }
 }
-
-console.log(myIsNan('3'))
+console.log(myIsNan( NaN ))
 
 
 /*function myPad(inputString,symbolToAdd,symbolLenght,whereToAdd) {
