@@ -1,6 +1,6 @@
 
 function myIsNan(a){
-    if(a == Number) {
+    if(a == Number || a * 1 == Number) {
         return false
     }
     else{
@@ -8,7 +8,7 @@ function myIsNan(a){
     }
 }
 
-console.log(myIsNan('gg'))
+console.log(myIsNan('3'))
 
 
 /*function myPad(inputString,symbolToAdd,symbolLenght,whereToAdd) {
