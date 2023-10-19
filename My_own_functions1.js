@@ -26,12 +26,12 @@ console.log(myPad('Add something','@',20,false))*/
 
 
 
-/*function checkProbabilityTheory(count) {
-    let percentage1;
-    let percentage2;
+function checkProbabilityTheory(count) {
+    let percentageOfEven;
+    let percentageOfNotEven;
     let counterEven = 0;
     let counterNotEven = 0;
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < count; i++) {
         //   console.log(Math.random());
         var result = (Math.floor(Math.random() * 1001));
         console.log(result);
@@ -43,12 +43,12 @@ console.log(myPad('Add something','@',20,false))*/
         }
         console.log(counterEven, counterNotEven)
     }
-    percentage1 = (counterEven * 100) / count;
-    percentage2 = (counterNotEven * 100) / count;
+    percentageOfEven = (counterEven * 100) / count;
+    percentageOfNotEven = (counterNotEven * 100) / count;
 
-    console.log('Всього було згенеровано ' + count + ' чисел. З них: ' + counterEven + ' парних і ' + counterNotEven + ' непарних чисел. Їх відсоткове співвідношення: ' + percentage1 + '/' + percentage2)
+    console.log('Всього було згенеровано ' + count + ' чисел. З них: ' + counterEven + ' парних і ' + counterNotEven + ' непарних чисел. Їх відсоткове співвідношення: ' + percentageOfEven + '/' + percentageOfNotEven)
 }
 
-console.log(checkProbabilityTheory(10))*/
+console.log(checkProbabilityTheory(20))
 
 
