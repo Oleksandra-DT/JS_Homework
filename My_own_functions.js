@@ -31,9 +31,9 @@ function checkProbabilityTheory(count) {
     let percentageOfNotEven;
     let counterEven = 0;
     let counterNotEven = 0;
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < count; i++) {
         //   console.log(Math.random());
-        var result = (Math.floor(Math.random() * (1000 - 100) + 100);
+        var result = Math.floor(Math.random() * (1000 - 100) + 100);
         console.log(result);
         if (result % 2 === 0) {
             counterEven++
