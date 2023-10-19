@@ -1,14 +1,14 @@
 
-/*function myIsNan(a){
-    if(a == Number){
-        console.log(true);
+function myIsNan(a){
+    if(a == Number) {
+        return false
     }
     else{
-        console.log(false);
+       return true ;
     }
 }
 
-console.log(myIsNan('gg'))*/
+console.log(myIsNan('gg'))
 
 
 /*function myPad(inputString,symbolToAdd,symbolLenght,whereToAdd) {
@@ -26,7 +26,7 @@ console.log(myPad('Add something','@',20,false))*/
 
 
 
-function checkProbabilityTheory(count) {
+/*function checkProbabilityTheory(count) {
     let percentageOfEven;
     let percentageOfNotEven;
     let counterEven = 0;
@@ -49,6 +49,6 @@ function checkProbabilityTheory(count) {
     console.log('Всього було згенеровано ' + count + ' чисел. З них: ' + counterEven + ' парних і ' + counterNotEven + ' непарних чисел. Їх відсоткове співвідношення: ' + percentageOfEven + '/' + percentageOfNotEven)
 }
 
-console.log(checkProbabilityTheory(10))
+console.log(checkProbabilityTheory(10))*/
 
 
