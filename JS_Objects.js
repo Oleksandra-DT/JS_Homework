@@ -1,11 +1,10 @@
-/*var country = {
+var country = {
     countryName: 'Ukraine',
     capital: 'Kyiv',
     territoryArea: 603628,
     currency: 'Hryvnia',
     getInfo: function () {
-        let result = country;
-        return result;
+            console.log(Object.entries(country));
     }
 }
 console.log (country.getInfo());
@@ -13,7 +12,7 @@ country.language = 'ukrainian';
 console.log (country.getInfo());
 country.population = 33.2;
 console.log (country.getInfo());
-*/
+
 
 
 /*var services = {
