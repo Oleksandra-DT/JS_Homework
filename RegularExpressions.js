@@ -1,6 +1,6 @@
 //Без А:
 /*
-/.{6,}[^aаAА]/
+/^[^aаAА]{6,}$/
 
 */
 
@@ -26,11 +26,10 @@ var arr = [
 var arr1 = [];
 for (const arrKey in arr) {
     var user = arr[arrKey];
-    var re = /^([a-zA-Z0-9])\.+|([a-zA-Z0-9]+\.[a-zA-Z0-9]+)@((gmail\.com)|(yahoo\.com))$/;
+    var re = /^(([a-zA-Z0-9]+)|([a-zA-Z0-9]+\.[a-zA-Z0-9]+))@(gmail|yahoo)?\.com$/;
     if (re.test(user.email) === true){
         arr1.push(user.email)
     }
 }
 console.log(arr1)
 */
-
